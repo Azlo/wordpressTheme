@@ -1,0 +1,73 @@
+/*
+Theme Name: myTheme
+Theme URI: http://localhost/~mallart/archets
+Description: thème enfant
+Template: twentythirteen
+Author: mallart
+Version: 1.0.0
+*/
+
+@import url("../twentythirteen/style.css");
+
+/* =Theme customization starts here */
+
+.site-header {
+	background:url("image/header.jpg")!important;
+	background-color:black;
+
+}
+
+.site-title {
+	color:white;
+}
+
+.site-description {
+	color:white;
+}
+
+#map {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin-top:50px;
+}
+
+.archive-header {
+	background-color:rgb(20,20,20) !important;
+}
+
+.archive-title {
+	color:white;
+}
+
+#navbar {
+	background-color:#614B3A;
+}
+
+.current-menu-item {
+	color:black !important;
+}
+
+.paging-navigation {
+	background-color:#614B3A;
+}
+
+.site-footer {
+	background-color:#614B3A;
+}
+
+#secondary {
+	background-color:rgb(20,20,20) !important;
+}
+
+.meta-nav {
+	background-color:rgb(100,100,100) !important;
+}
+
+.nav-previous a{
+	color:rgb(100,100,100) !important;
+}
+
+#content {
+	background-color:rgb(200,200,200) !important;
+}
